@@ -42,7 +42,7 @@ dependencies = [
     "uniception"
 ]
 [tool.uv.sources]
-uniception = { git = "https://github.com/castacks/UniCeption", branch = "main" }
+uniception = { git = "https://github.com/castacks/UniCeption/tree/1cff08065666d351b2bbdf2db678a4df196afa43"}
 
 [project.optional-dependencies]
 dev = [

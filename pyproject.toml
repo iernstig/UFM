@@ -69,6 +69,11 @@ Repository = "https://github.com/UniFlowMatch/UFM.git"
 Documentation = "https://uniflowmatch.github.io/"
 "Bug Tracker" = "https://github.com/UniFlowMatch/UFM/issues"
 
+[tool.setuptools]
+# Map the root directory to find the package folders
+package-dir = {"" = "."}
+packages = ["uniflowmatch"]
+
 [tool.black]
 line-length = 120
 include = '\.pyi?$'

@@ -39,7 +39,10 @@ dependencies = [
     "jaxtyping",
     "Pillow",
     "scikit-learn",
+    "uniception"
 ]
+[tool.uv.sources]
+uniception = { git = "https://github.com/castacks/UniCeption", branch = "main" }
 
 [project.optional-dependencies]
 dev = [
